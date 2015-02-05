@@ -1,0 +1,127 @@
+/* -------------------------------------------------------
+
+Jonathan Culp // Intern Architect and Designer
+
+JonathanCulp.com
+
+Version:4
+
+Author: Jonathan Culp
+
+----------------------------------------------------- */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0;}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}body{line-height:1;}ol,ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:none;}table{border-collapse:collapse;border-spacing:0;}
+
+/* Basic */
+
+html, body {
+	background:#F7F7F7;
+	width: 100%;
+	font-family: 'Lato', Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 54px;
+	color: #D5D5D5;
+	font-smooth: always;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizedLegibility;
+}
+
+::-moz-selection{ background: #00FF11; color: #fff;}
+::selection{ background: #00FF11; color: #fff;}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 100;
+	line-height: 1.2em:;
+	white-space: nowrap;
+}
+
+a, a:link, a:visited {
+	color: #D5D5D5;
+	position: relative;
+	text-decoration: none;
+	outline: none;
+	cursor: crosshair;
+}
+
+a:hover, a:active {
+	color: #fff;
+}
+
+/* Items */
+
+header {
+	margin: 11%
+}
+hgroup h1{ 
+	font-weight: 600;
+	font-size: 69px;
+	margin-bottom: 4%;
+	text-shadow: -1px -1px 1px #969696;
+}
+
+hgroup h2 a {
+	display: inline-block;
+	-webkit-transition: background .6s cubic-bezier(0.075, 0.82, .165, 1);
+	-moz-transition: background .6s cubic-bezier(0.075, 0.82, .165, 1);
+	-ms-transition: background .6s cubic-bezier(0.075, 0.82, .165, 1);
+	transition: background .6s cubic-bezier(0.075, 0.82, .165, 1);
+}
+
+hgroup h2:nth-child(6) a {
+	color: #DCE05C;
+}
+
+hgroup h2:nth-child(6):hover a {
+	color: #fff;
+	background: #BCC200;
+}
+
+hgroup h2:nth-child(3) a {
+	color: #E05C5C;
+}
+
+hgroup h2:nth-child(3):hover a {
+	color: #fff;
+	background: red;
+}
+
+hgroup h2:nth-child(4) a {
+	color: #A0E880;
+}
+
+hgroup h2:nth-child(4):hover a {
+	color: #fff;
+	background: #6BBE46;
+}
+
+hgroup h2:nth-child(5) a {
+	color: #E884E0;
+}
+
+hgroup h2:nth-child(5):hover a {
+	color: #fff;
+	background: #BD35B1;
+}
+
+hgroup h2:nth-child(2) a {
+	color: #76cac6;
+}
+
+hgroup h2:nth-child(2):hover a {
+	color: #fff;
+	background: #2FBAB4;
+}
+
+hgroup h2:nth-child(8) a {
+	color: #000;
+}
+
+hgroup h2:nth-child(8):hover a {
+	color: #fff;
+	background: #000;
+}
