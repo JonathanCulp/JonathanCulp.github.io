@@ -1,0 +1,200 @@
+/* -------------------------------------------------------
+
+Jonathan Culp 
+
+JonathanCulp.com
+
+Version:5
+
+Author: Jonathan Culp
+
+----------------------------------------------------- */
+
+::-moz-selection{ background: #FFF200; color: #fff;}
+::selection{ background: #FFF200; color: #fff;}
+
+/* Nav */
+
+.logo {
+	font-family: "Roboto Slab", serif;
+	font-size: 1.5em;
+	text-decoration: none;
+	color: #000;
+	vertical-align: middle;
+	line-height: 50px;
+}
+
+.navbar {
+	background: #FFF;
+}
+
+.navbar li {
+	display: inline;
+}
+
+.pull-right a {
+	font-family: 'Lato', Helvetica, sans-serif;
+	font-size: 1.125em;
+	text-decoration: none;
+	color: #000;
+	vertical-align: middle;
+	line-height: 50px;
+	padding-left: 10px;
+}
+
+a:hover {
+    text-decoration: none;
+	color: #e58f73;
+}
+
+/* Body */
+
+body {
+	/*background: url("../images/dots.png") no-repeat top center fixed;*/
+	background: linear-gradient(#93a0b6, #e58f73);
+	
+	background: #93a0b6;
+	  background: -moz-linear-gradient(top,  #93a0b6 0%, #e58f73 100%);
+	  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#93a0b6), color-stop(100%,#e58f73));
+	  background: -webkit-linear-gradient(top,  #93a0b6 0%,#e58f73 100%);
+	  background: -o-linear-gradient(top,  #93a0b6 0%,#e58f73 100%);
+	  background: -ms-linear-gradient(top,  #93a0b6 0%,#e58f73 100%);
+	  background: linear-gradient(to bottom,  #93a0b6 0%,#e58f73 100%);
+	  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93a0b6', endColorstr='#e58f73',GradientType=0 );
+	  background-attachment: fixed;
+	
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+p, label {
+	font-family: 'Lato', Helvetica, sans-serif;
+	text-decoration: none;
+	font-weight: 300;
+	font-size: 1.125em;
+	color: #FFF;
+}
+
+#greeting {
+	max-width: 500px;
+}
+
+/* Intro */
+
+.featured {
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(#F7F7F7, #FFF);
+	box-shadow: 0 -3px 6px rgba(0,0,0,0.11);
+	padding-bottom: 70px;
+}
+
+.featured h2 {
+	color: #000;
+}
+
+
+.intro {
+	height: 850px;
+	width: 100%;
+	padding-top: 70px; 
+}
+
+h1 {
+	font-family: "Roboto Slab", serif;
+	font-size: 5em;
+	color: #fff;
+}
+
+h3 {
+	font-family: 'Lato', Helvetica, sans-serif;
+	font-size: 1.5em;
+	color: #FFF;
+	margin-bottom: 50px;
+}
+
+/* Content */
+.col-xs-6{
+	height: 100px;
+	background-color: red;
+}
+
+.work img{
+	width: 100%;
+	height: 100%;
+}
+
+/* highlights */
+
+.highlights {
+	height: 100%;
+	width: 100%;
+}
+
+/* Footer */
+
+.global {
+	height: 100%;
+	width: 100%;
+	background-color: #e58f73;
+}
+
+h2 {
+	font-family: 'Lato', Helvetica, sans-serif;
+	font-weight: 300;
+	font-size: 2.5em;
+	color: #FFF;
+	padding-top: 25px;
+	padding-left: 15px;
+}
+
+form {
+	margin: 75px 100px 30px 75px;
+	
+}
+
+.btn {
+	border-radius: 0;
+	background-color: #5b7cb5;
+}
+
+.btn:hover{
+	background-color: #336699;
+}
+
+h4 {
+	text-align: center;
+	font-family: 'Lato', Helvetica, sans-serif;
+	text-decoration: none;
+	font-weight: 300;
+	font-size: 1.5em;
+	color: #FFF;
+}
+
+img {
+	display: block;
+	height: 200px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a :hover {
+	text-decoration: underline;
+}
+
+
+.thanks {
+	margin-bottom: 15px;
+	text-align: center;
+	line-height: 5px;
+	width: 100%;
+	background-color: #e58f73;
+}
+
+.col-centered {
+	margin: 40px 0px 40px 0px;
+}
