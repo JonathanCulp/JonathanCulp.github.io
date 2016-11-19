@@ -1,0 +1,166 @@
+/* -------------------------------------------------------
+
+Jonathan Culp // 
+
+JonathanCulp.com
+
+Version: .07
+
+Author: Jonathan Culp
+
+Contact: JonathanCulp.com
+
+----------------------------------------------------- */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0;}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}body{line-height:1;}ol,ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:none;}table{border-collapse:collapse;border-spacing:0;}
+
+body{
+    background: url(https://photos-5.dropbox.com/t/2/AADC4aLbgb10H95_Toc39RgcAxqHvgzTSlW6udr1v7oPAw/12/3957991/png/32x32/3/1479589200/0/2/fab.png/EIzl_AIY6KkBIAcoBw/7SFuPHZA925947JWCzHAFzMYp3c_yrAypsYH-KDqIrE?size_mode=3&dl=0&size=1600x1200) no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
+
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    background-color: #000;
+    font-smooth: always;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizedLegibility;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+#nav {
+    position: fixed;
+    height: 20px;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+#nav h1 {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 2.25em;
+    overflow: visible;
+}
+
+h3 {
+    position: absolute;
+    bottom: 3px;
+    right: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 1.75em;
+    z-index: 1;
+}
+
+[draggable=true] {
+    cursor: move;
+}
+
+#about{
+    position: absolute;
+    color: #fff;
+    width: 230px;
+    height: 275px;
+    left: 15%;
+    top: 17%;
+    background-color: #fff;
+}
+
+#contact{
+    position: absolute;
+    color: #fff;
+    width: 200px;
+    height: 200px;
+    left: 37%;
+    top: 70%;
+    background-color: #fff;
+}
+
+#work{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    left: 65%;
+    top: 5%;
+    background-color: #fff;
+} 
+
+p {
+    margin: 5px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 1.25em;
+}  
+
+#portfolio a{
+    color: #fff;
+}
+
+
+#work:hover{
+animation: fade 5s;
+animation-fill-mode: forwards;
+cursor: copy;
+}
+
+#contact:hover{
+animation: pulse 2s;
+animation-fill-mode: forwards;
+cursor: copy;
+}
+
+#about:hover{
+animation: pulse 2s;
+animation-fill-mode: forwards;
+cursor: copy;
+}
+
+
+@keyframes pulse {
+ 0% {
+    color: #fff;
+  }
+  
+  30% {
+    color: #FF4136;
+  }
+
+    100% {
+    color: #000;
+  }
+}
+
+@keyframes fade {
+ 0% {
+    background-color: #fff;
+  }
+  
+  30% {
+    background-color: #FF4136;
+  }
+
+    100% {
+    background-color: #FF4136;
+  }
+}
+
