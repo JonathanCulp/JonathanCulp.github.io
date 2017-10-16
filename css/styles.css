@@ -168,3 +168,10 @@ cursor: copy;
   }
 }
 
+/* Resize */
+ @media (max-width: 600px) {
+
+   #work{
+     left: 45%;
+   }
+}
