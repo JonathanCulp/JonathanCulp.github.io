@@ -78,7 +78,7 @@ h3 {
 }
 
 [draggable=true] {
-    cursor: move;
+    cursor: grabbing;
 }
 
 #about{
@@ -125,19 +125,19 @@ p {
 #work:hover{
 animation: fade 5s;
 animation-fill-mode: forwards;
-cursor: copy;
+cursor: grab;
 }
 
 #contact:hover{
 animation: pulse 2s;
 animation-fill-mode: forwards;
-cursor: copy;
+cursor: grab;
 }
 
 #about:hover{
 animation: pulse 2s;
 animation-fill-mode: forwards;
-cursor: copy;
+cursor: grab;
 }
 
 
